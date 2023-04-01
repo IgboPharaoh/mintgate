@@ -35,7 +35,7 @@ upstream        git@github.com:GETLN/mintgate.git (push)
 ```bash
 $ git checkout main
 $ git fetch upstream
-$ git merge upstream/main
+$ git rebase upstream/main
 ```
 8. Install dependencies:
 ```bash
