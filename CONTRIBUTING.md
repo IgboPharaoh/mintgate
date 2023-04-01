@@ -73,6 +73,21 @@ $ git commit -m "brief description of changes"
 
 **NOTE**: While the approach above in committing changes is appreciated, contributors are encouraged to use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) 
 
+* See examples below:
+
+```bash
+$ git commit -m "feat: add deposit QR code"
+```
+
+or
+
+```bash
+$ git commit -m "
+> fix: resolve responsiveness issue on QR code across devices
+> Refs: #19
+"
+```
+
 12. Push the changes to your GitHub account:
 ```bash
 $ git push -u origin feature_name
