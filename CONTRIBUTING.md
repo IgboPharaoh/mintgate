@@ -70,6 +70,9 @@ git checkout -b feature_name
 $ git add modified_files
 $ git commit -m "brief description of changes"
 ```
+
+**NOTE**: While the approach above in committing changes is appreciated, contributors are encouraged to use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) 
+
 12. Push the changes to your GitHub account:
 ```bash
 $ git push -u origin feature_name
